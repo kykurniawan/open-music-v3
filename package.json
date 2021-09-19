@@ -1,0 +1,35 @@
+{
+  "name": "open-music-v2",
+  "version": "2.0.0",
+  "description": "open music api",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon ./src/server.js",
+    "prod": "NODE_ENV=production node ./src/server.js",
+    "migrate": "node-pg-migrate"
+  },
+  "keywords": [
+    "open",
+    "music"
+  ],
+  "author": "rizkykurniawan",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.24.0",
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.1.2",
+    "@hapi/inert": "^6.0.4",
+    "@hapi/jwt": "^2.1.0",
+    "amqplib": "^0.8.0",
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "joi": "^17.4.2",
+    "nanoid": "^3.1.22",
+    "node-pg-migrate": "^5.10.0",
+    "pg": "^8.7.1",
+    "redis": "^3.1.2",
+    "validator": "^13.6.0"
+  }
+}
