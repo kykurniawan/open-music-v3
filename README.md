@@ -1,3 +1,2 @@
-### Submission 3 Dicoding
-### Course: Belajar Fundamental Aplikasi Back-End
+This is my Node.js project for completing dicoding class
 
